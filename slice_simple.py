@@ -6,3 +6,8 @@ def slice_simple():
 
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
+def slice_simple():
+    texto = input("ingrese un texto: ")
+    print(texto[4::2])
+    
+slice_simple()
